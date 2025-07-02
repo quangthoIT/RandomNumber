@@ -124,7 +124,7 @@ function displayResults(rows, totalNumbers) {
   summaryDiv.innerHTML = `
             <strong>TỔNG KẾT</strong><br>
             Tổng số chưa xuất hiện: ${totalNumbers}<br>
-            Số hàng được tạo: ${rows.length}
+            Số dãy số được tạo: ${rows.length}
         `;
   resultsContainer.appendChild(summaryDiv);
 
