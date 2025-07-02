@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TRÌNH CHỌN SỐ NGẪU NHIÊN</h1>
+
+      <div class="input-section">
+        <div class="grid-container" id="inputGrid"></div>
+
+        <div class="controls">
+          <button class="btn btn-second" onclick="fillSample()">
+            Điền ngẫu nhiên
+          </button>
+          <button class="btn btn-third" onclick="clearAll()">
+            Xóa tất cả
+          </button>
+          <button class="btn" onclick="generateNumbers()">
+            Bắt đầu chọn số
+          </button>
+        </div>
+      </div>
+
+      <div class="results-section" id="resultsSection" style="display: none">
+        <h2 class="results-title">Kết quả các hàng số ngẫu nhiên</h2>
+        <div id="resultsContainer"></div>
+      </div>
+    </div>
+  </body>
+</html>
